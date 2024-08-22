@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/prod
+    username: prod
+    password: prod
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    url: jdbc:postgresql://postgres:5432/prod
+    user: prod
+    password: prod
